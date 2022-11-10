@@ -1,12 +1,44 @@
 # Demo Project
 
-This demo project was created using the .NET 6 ASP.NET Core with C#. It is a simple api where every endpoint expects an an object Clientes containing an array of customers with id, name, cpf number and salary.
+This demo project was created using the .NET 6 ASP.NET Core with C#. It is a simple api where every endpoint expects an object "Clientes" containing an array of customers with id, name, cpf number and salary.
 
 ## Endpoints
 
 - POST /api/customer return a list of customers sorted by name
 - POST /api/customer/:id find and return a customer by id
 - POST /api/customer/salary?cpf=###.###.###-##&percentage=## return a % of the customer salary. default = 30
+
+## Test Data
+
+{
+    "clientes": [
+        {
+                      "id":"1",
+            "nome":"Maria Sousa", 
+            "cpf":"258.851.854-74", 
+            "salario":"2500.77"
+        },
+        {
+            "id":"2",
+            "nome":"Jose Santos", 
+            "cpf":"358.800.700-01", 
+            "salario":"1851.88"
+        }, 
+        {
+            "id":"4",
+            "nome":"Amanda Gasper Libero", 
+            "cpf":"258.587.854-55", 
+            "salario":"8755.00"
+        },
+        {
+            "id":"5",
+            "nome":"Thais Alcantara Machado", 
+            "cpf":"211.855.854-99", 
+            "salario":"1250.01"
+        }
+    ]
+}
+
 
 ## 🔧 Runing the project
 
