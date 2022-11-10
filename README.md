@@ -1,4 +1,4 @@
-# Package Management Demo Project
+# Demo Project
 
 This demo project was created using the .NET 6 ASP.NET Core with C#. It is a simple api where every endpoint expects an an object Clientes containing an array of customers with id, name, cpf number and salary.
 
@@ -10,7 +10,7 @@ This demo project was created using the .NET 6 ASP.NET Core with C#. It is a sim
 
 ## 🔧 Runing the project
 
-### Using Docker:
+### Using Docker and VSCode to run the project in a remote container:
 
 - Clone the repo on your local machine
 - Make sure you have Docker installed on your local machine
